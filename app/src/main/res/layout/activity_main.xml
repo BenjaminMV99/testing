@@ -6,10 +6,23 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/weadelacami"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wena los kbros"
         android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#CD7D7D"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wena po"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/weadelacami"
         android:paddingTop="50dp"
         android:textSize="20dp"
         android:textStyle="bold"
